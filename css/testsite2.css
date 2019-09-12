@@ -1,0 +1,58 @@
+.content {
+    width: 85%;
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+h1 {
+    color: blue;
+    text-align: center;
+}
+.hero-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.hero-section a {
+    text-decoration: none;
+    color:black;
+}
+.hero-section a:hover {
+    color: red;
+}
+.hero-section2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.hero-section2 a {
+    text-decoration: none;
+    color:black;
+}
+.hero-section2 a:hover {
+    color: red;
+}
+.header{
+    height: 500px;
+    background-position: 50% 50%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+}
+.header h1{
+    color: black;
+    font-weight: bold;
+}
+.about-me {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+    width: 50%;
+}
