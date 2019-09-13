@@ -45,7 +45,7 @@ h1 {
     background-attachment: fixed;
     /*background-position: center;*/
     background-repeat: no-repeat;
-    background-image: url('/images/testimage.jpeg');
+    background-image: url('../images/testimage.jpeg');
 }
 .header h1{
     color: black;
