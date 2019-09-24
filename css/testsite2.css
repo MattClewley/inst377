@@ -8,29 +8,30 @@ h1 {
     color: blue;
     text-align: center;
 }
-.hero-section{
+.main-section{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding-top: 100px;
 }
-.hero-section a {
+.main-section a {
     text-decoration: none;
     color:black;
 }
-.hero-section a:hover {
+.main-section a:hover {
     color: red;
 }
-.hero-section2{
+.main-section2{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
+    padding-top: 100px;
 }
-.hero-section2 a {
+.main-section2 a {
     text-decoration: none;
     color:black;
 }
-.hero-section2 a:hover {
+.main-section2 a:hover {
     color: red;
 }
 .header{
@@ -58,7 +59,45 @@ h1 {
     text-align: center;
     width: 50%;
 }
-.image1 {
-    width: 200px;
-    height: 150px;
+.work-section {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 10px 50px 10px;
+    justify-content: space-between;
+    /*text-align: center;
+    width: 50%;*/
 }
+.job{
+    width: 50%;
+    padding: 0px 10px 0px 0px;
+}
+.job2{
+    width: 30%;
+    padding-top: 20px;
+}
+.image1 {
+    width: 30%;
+    height: auto;
+}
+.image2 {
+    width: 100%; 
+    height: auto;
+}
+.about-me h2{
+    color: goldenrod;
+}
+.main-section2 h2{
+    color: goldenrod;
+}
+.job-list{
+    list-style-type: square;
+}
+.bolded{
+    font-weight: bold;
+}
+hr.hr {
+    background-color: blue;
+    width: 100%;
+    height: 1px;
+    /*border-top: 1px solid black;*/
+  }
