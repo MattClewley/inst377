@@ -1,3 +1,13 @@
+.black-subhead{
+    width: 60%;
+    background-color: rgba(98, 46, 21, 0.5);
+}
+
+.black-subhead h1 {
+    color: #FEE8D2;
+    font-weight: bold;
+}
+
 .content {
     width: 85%;
     max-width: 1400px;
@@ -48,10 +58,7 @@ h1 {
     background-repeat: no-repeat;
     background-image: url('../images/testimage.jpeg');
 }
-.header h1{
-    color: black;
-    font-weight: bold;
-}
+
 .about-me {
     display: flex;
     flex-direction: column;
